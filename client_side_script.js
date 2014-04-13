@@ -34,3 +34,10 @@ function hideAll()
 		}
 	}
 }
+
+function newPage()
+{
+	hideAll();
+	toggleItem('announcements');
+
+}
